@@ -1,0 +1,70 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Apparel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Elite Apparel</h1>
+        <nav>
+            <a href="#hoodies">Hoodies</a>
+            <a href="#shirts">Shirts</a>
+            <a href="#shorts">Shorts</a>
+            <a href="#pants">Pants</a>
+            <a href="#hats">Hats</a>
+        </nav>
+    </header>
+
+    <section id="hoodies">
+        <h2>Hoodies</h2>
+        <div class="product">
+            <img src="hoodie.jpg" alt="Elite Hoodie">
+            <p>Elite Hoodie - $45</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="shirts">
+        <h2>Shirts</h2>
+        <div class="product">
+            <img src="shirt.jpg" alt="Elite Shirt">
+            <p>Elite Shirt - $30</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="shorts">
+        <h2>Shorts</h2>
+        <div class="product">
+            <img src="shorts.jpg" alt="Elite Shorts">
+            <p>Elite Shorts - $35</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="pants">
+        <h2>Pants</h2>
+        <div class="product">
+            <img src="pants.jpg" alt="Elite Pants">
+            <p>Elite Pants - $50</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="hats">
+        <h2>Hats</h2>
+        <div class="product">
+            <img src="hat.jpg" alt="Elite Hat">
+            <p>Elite Hat - $25</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
